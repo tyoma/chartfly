@@ -1,0 +1,10 @@
+*.user
+*/_*/*
+_*
+*.suo
+*.sdf
+*.opensdf
+TestResults/*
+*.lib
+*.ncb
+ipch
