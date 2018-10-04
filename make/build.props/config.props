@@ -5,4 +5,9 @@
     <IntDir>$(SolutionDir)_obj\$(Configuration)_$(PlatformName)\$(ProjectName)\</IntDir>
     <OutDir>$(SolutionDir)_bin\$(Configuration)_$(PlatformName)\</OutDir>
   </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)..\..;$(MSBuildThisFileDirectory)..\..\libraries\agge;$(MSBuildThisFileDirectory)..\..\libraries\wpl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
 </Project>

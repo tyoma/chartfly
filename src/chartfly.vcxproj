@@ -26,6 +26,12 @@
       <Project>{f849e92c-248a-46b2-9eab-f86578a21316}</Project>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\chartfly\models.h" />
+    <ClInclude Include="..\chartfly\scroller.h" />
+    <ClInclude Include="..\chartfly\types.h" />
+    <ClInclude Include="..\chartfly\widget.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6EE86424-10EF-4ED2-B2B1-C3F93D21ACF6}</ProjectGuid>
   </PropertyGroup>
@@ -39,7 +45,7 @@
   </ImportGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;../libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

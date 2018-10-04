@@ -1,7 +1,10 @@
+[submodule "libraries/wpl"]
+	path = libraries/wpl
+	url = ../wpl.git
+	branch = master
 [submodule "libraries/agge"]
 	path = libraries/agge
 	url = ../agge.git
-	branch = master
 [submodule "libraries/utee"]
 	path = libraries/utee
 	url = ../utee.git
