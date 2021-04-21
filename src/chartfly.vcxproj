@@ -30,6 +30,7 @@
     <ClInclude Include="..\chartfly\models.h" />
     <ClInclude Include="..\chartfly\scroller.h" />
     <ClInclude Include="..\chartfly\types.h" />
+    <ClInclude Include="..\chartfly\view.h" />
     <ClInclude Include="..\chartfly\widget.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

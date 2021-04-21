@@ -5,6 +5,7 @@
     <ClInclude Include="..\chartfly\scroller.h" />
     <ClInclude Include="..\chartfly\types.h" />
     <ClInclude Include="..\chartfly\models.h" />
+    <ClInclude Include="..\chartfly\view.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
